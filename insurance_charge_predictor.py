@@ -3,8 +3,8 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load('/content/best_gradient_boosting_model.pkl')
-model1=joblib.load('/content/linear_regression_model.joblib')
+model = joblib.load('best_gradient_boosting_model.pkl')
+model1=joblib.load('linear_regression_model.joblib')
 
 # Title
 st.title("💸 Insurance Charge Prediction App")
